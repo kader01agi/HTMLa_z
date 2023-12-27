@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <meta name="Author" content="MD. ABDUL KADER">
+    <title>SEIP Project</title>
+    <link rel="shortcut icon" href="seip.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Registration for SEIP Project</h1>
+        <hr>
+    </header>
+    <main>
+        <form action="https://httpbin.org/post" method="post" target="_blank">
+            <fieldset>
+                <legend>Goal</legend>
+                <p>Select Course:(You are eligible for one course only)</p>
+                    <label for="goal">First Preference *:</label>
+                    <select name="goal" id="goal">
+                        <optgroup label="AGI">
+                            <option value="Artificial Intelligence">Artificial Intelligence</option>
+                            <option value="Machine Learning">Machine Learning</option>
+                            <option value="Deep Learning">Deep Learning</option>
+                            <option value="Data Science">Data Science</option>
+                        </optgroup>
+                        <optgroup label="Web Development">
+                            <option value="Full-stack Web Development">Full-stack Web Development</option>
+                            <option value="Mern-stack Web Development">Mern-stack Web Development</option>
+                            <option value="AI-based Web Development">AI based Web Development</option>
+                            <option value="Backend Web Development">Backend Web Development</option>
+                            <option value="Frontend Web Development">Frontend Web Development</option>
+                        </optgroup>
+                        <optgroup label="Framework expert">
+                            <option value="Django Developer">Django Developer</option>
+                            <option value="Django-Rest Developer">Django-Rest Developer</option>
+                            <option value="Flask Developer">Flask Developer</option>
+                            <option value="Laravel Developer">Laravel Developer</option>
+                        </optgroup>
+                    </select>
+            </fieldset><br>
+            <fieldset>
+                <legend>Language</legend>
+                <p>Select Language:(You can learn more than one Programming Language)</p>
+                <label for="Language">Language(s)</label>
+                <select name="Language" id="Language" multiple required>
+                    <optgroup label="Most Popular">
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Go">Go</option>                        
+                    </optgroup>
+                    <optgroup label="Others">
+                        <option value="C">C</option>
+                        <option value="C#">C#</option>
+                        <option value="C++">C++</option>
+                        <option value="Ruby">Ruby</option>
+                        <option value="Java">Java</option>
+                    </optgroup>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label for="Name">Name *</label>
+                    <input type="text" name="Name" id="Name" placeholder="Your name? (Aa-z)" pattern="[A-Z][a-z]+" autocomplete="on"  minlength="4" maxlength="40" size="20" required>
+                </p>
+                <p>
+                    <label for="father">Father's name *</label>
+                    <input type="text" name="father" id="father" placeholder="Your father's name? (Aa-z)" pattern="[A-Z][a-z]+" autocomplete="on"  minlength="4" maxlength="40" size="20" required>
+                </p>
+                <p>
+                    <label for="mother">Mother's name *</label>
+                    <input type="text" name="mother" id="mother" placeholder="Your mother's name? (Aa-z)" pattern="[A-Z][a-z]+" autocomplete="on"  minlength="4" maxlength="40" size="20" required>
+                </p>
+                <label for="Gender">Gender <span>*</span></label>
+                <select name="Gender" id="Gender" required>
+                    <option value="" selected>Select a gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <p>
+                    <label for="NID">NID<span>*</span></label>
+                    <input type="text" name="NID" id="NID" pattern="[\d]+" minlength="10" maxlength="17" required>
+                </p>
+                <p>
+                    <label for="dob">Date of Birth <span>*</span></label>
+                    <input type="date" name="dob" id="dob" required>
+                </p>
+                <label for="religion">Religion</label>
+                <select name="religion" id="religion">
+                    <option value="" selected>Select one</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Hinduism">Hinduism</option>
+                    <option value="Buddhism">Buddhism</option>
+                    <option value="Christianity">Christianity</option>
+                </select>
+                <select name="EthnicGroup" id="ethnicity">
+                    <option value="" selected>Select your ethnicity</option>
+                    <option value="Armenian community of Dhaka" >Armenian community of Dhaka</option>
+                    <option value="Armenians in Bangladesh" >Armenians in Bangladesh</option>
+                    <option value="Bagdi caste" >Bagdi caste</option>
+                    <option value="Bom people" >Bom people</option>
+                    <option value="Bede people" >Bede people</option>
+                    <option value="Bedia (Muslim caste)" >Bedia (Muslim caste)</option>
+                    <option value="Bengali Hindus" >Bengali Hindus</option>
+                    <option value="Bengali Muslims" >Bengali Muslims</option>
+                    <option value="Bengali people" >Bengali people</option>
+                    <option value="Bihari Muslims" >Bihari Muslims</option>
+                    <option value="Bihari people" >Bihari people</option>
+                    <option value="Buno people" >Buno people</option>
+                    <option value="Chak people" >Chak people</option>
+                    <option value="Chakma people" >Chakma people</option>
+                    <option value="Chinese people in Bangladesh" >Chinese people in Bangladesh</option>
+                    <option value="Dhanuk" >Dhanuk</option>
+                    <option value="Garo people" >Garo people</option>
+                    <option value="Indians in Bangladesh" >Indians in Bangladesh</option>
+                    <option value="Indigenous peoples in Bangladesh" >Indigenous peoples in Bangladesh</option>
+                    <option value="Jumma people" >Jumma people</option>
+                    <option value="Kan (tribe)" >Kan (tribe)</option>
+                    <option value="Khasi people" >Khasi people</option>
+                    <option value="Khumi people" >Khumi people</option>
+                    <option value="Khyang people" >Khyang people</option>
+                    <option value="Kuki Inpi" >Kuki Inpi</option>
+                    <option value="Kuki people" >Kuki people</option>
+                    <option value="Kurukh people" >Kurukh people</option>
+                    <option value="Lushei tribe" >Lushei tribe</option>
+                    <option value="Mahle people" >Mahle people</option>
+                    <option value="Maimal" >Maimal</option>
+                    <option value="Mustafa Majid" >Mustafa Majid</option>
+                    <option value="Mal Muslim" >Mal Muslim</option>
+                    <option value="Marma people" >Marma people</option>
+                    <option value="Mro people" >Mro people</option>
+                    <option value="Munda people" >Munda people</option>
+                    <option value="Murang people" >Murang people</option>
+                    <option value="Naulak" >Naulak</option>
+                    <option value="Nepalis in Bangladesh" >Nepalis in Bangladesh</option>
+                    <option value="Pankho people" >Pankho people</option>
+                    <option value="Rakhine people, Bangladesh" >Rakhine people, Bangladesh</option>
+                    <option value="Rohingya people" >Rohingya people</option>
+                    <option value="Santhal people" >Santhal people</option>
+                    <option value="Stranded Pakistanis" >Stranded Pakistanis</option>
+                    <option value="Tanchangya people" >Tanchangya people</option>
+                    <option value="Thadou people" >Thadou people</option>
+                    <option value="Template:Tribes of Bangladesh" >Template:Tribes of Bangladesh</option>
+                    <option value="Tripuri people" >Tripuri people</option>
+                    <option value="Vaiphei people" >Vaiphei people</option>
+                    <option value="Zo people" >Zo people</option>
+                    <option value="Zomi nationalism" >Zomi nationalism</option>
+                </select>
+                <p>
+                    <label for="mobile">Mobile <span>*</span></label>
+                    <input type="text" name="mobile" id="mobile" minlength="11" maxlength="11" pattern="[\d]{11}" placeholder="0-9" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="email">email <span>*</span></label>
+                    <input type="email" name="email" id="email" minlength="10" maxlength="40" title="Enter a valid email address" pattern="[a-zA-Z0-9\._]+@[a-zA-Z0-9\.]+\.[a-zA-Z]{2,}" autocomplete="on" required>
+                </p>
+            </fieldset>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+         <details>
+            <summary>Hints</summary>
+                <p>
+                    My name is MD. ABDUL KADER
+                </p>
+        </details>
+    </main>
+</body>
+</html>
